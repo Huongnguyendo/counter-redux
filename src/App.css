@@ -1,0 +1,69 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url("./img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.box {
+  margin-right: 30px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 70px;
+  background-color: #FFD300;
+  color: white;
+  font-size: 17px;
+  border: 1px solid white;
+  outline: none;
+  text-align: center;
+}
+
+.input-all {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-indent: 10px;
+  height: 25px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  outline: none;
+}
+
+.input-one {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none !important;
+}
+
+.fa {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  
+}
+
+.btn {
+  margin-right: 15px;
+  background-color: #FFC30B;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.boxes {
+  margin: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
