@@ -5,6 +5,7 @@ import Box from "./components/Box";
 
 function App() {
   const dispatch = useDispatch();
+  // get count from reducer
   const count = useSelector((state) => state.count);
 
   const increase = () => {
@@ -19,9 +20,9 @@ function App() {
     dispatch({ type: "RESET" });
   };
 
-  const handleChange = (e) => {
-    dispatch({ type: "CHANGECOLOR", payload: e });
-  };
+  // const handleChange = (e) => {
+  //   dispatch({ type: "CHANGECOLOR", payload: e });
+  // };
 
   return (
     <div className="App">

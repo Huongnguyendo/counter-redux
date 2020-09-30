@@ -2,7 +2,6 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 
 const Box = ({ index }) => {
-  const count = useSelector((state) => state.count);
   const colorAll = useSelector((state) => state.color);
   const colorOne = useSelector((state) => state.boxes[index]);
 
@@ -19,10 +18,11 @@ const Box = ({ index }) => {
             : { backgroundColor: colorAll }
         }
       >
-        Change my color!
+        
         <input
           className="input-one"
           type="text"
+          placeholder="Change my color!"
           onChange={(event) => {
             dispatch({
               type: "change-one-box-color",
